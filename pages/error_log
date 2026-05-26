@@ -1,0 +1,5 @@
+[25-May-2026 15:11:56 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'oph0n93djre1wlxy_texass.sales_reps' doesn't exist in /home/oph0n93djre1wlxy/public_html/CRM/pages/sales_admin.php:58
+Stack trace:
+#0 /home/oph0n93djre1wlxy/public_html/CRM/pages/sales_admin.php(58): PDO->query('\n    SELECT sr....')
+#1 {main}
+  thrown in /home/oph0n93djre1wlxy/public_html/CRM/pages/sales_admin.php on line 58
